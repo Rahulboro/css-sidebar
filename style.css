@@ -86,3 +86,12 @@ main {
     opacity: 1;
     pointer-events: all;
   }
+  .sidebar-links ul {
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .sidebar-links li {
+    position: relative;
+  }
+ 
