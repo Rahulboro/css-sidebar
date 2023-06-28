@@ -62,3 +62,27 @@ main {
     font-size: 1.4rem;
   }
   
+  .expand-btn {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    background-color: var(--button-color);
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 3px 10px -3px var(--button-color-shadow);
+    right: -3rem;
+    transform: translateY(-50%) translateX(-8px);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  nav:hover .expand-btn,
+  .expand-btn.hovered {
+    transform: translateY(-50%) translateX(3px);
+    opacity: 1;
+    pointer-events: all;
+  }
