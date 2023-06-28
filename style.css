@@ -42,21 +42,20 @@ main {
     flex-direction: column;
 }
 
-.sidebar-top {
+.bar-top {
     position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 32px;
   }
   
-  .sidebar-top .logo {
+  .bar-top .logo {
     position: relative;
     width: 5px;
     margin-right: 1.45rem;
     left: -1px;
   }
-  
-  .sidebar-top h2 {
+bar-top h2 {
     padding-left: 0.5rem;
     font-weight: 600;
     font-size: 1.4rem;
@@ -86,12 +85,12 @@ main {
     opacity: 1;
     pointer-events: all;
   }
-  .sidebar-links ul {
+  .bar-links ul {
     list-style-type: none;
     position: relative;
   }
   
-  .sidebar-links li {
+  .bar-links li {
     position: relative;
   }
  
